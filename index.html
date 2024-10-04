@@ -44,7 +44,9 @@
   agent-id="f0ba5a2a-5b2a-407d-a90a-0e108e8d7101"
   language-code="pt-br"
   expand="true"
-  placeholder-text="Pergunte algo ao TeCo!"
+  <script>
+setTimeout(function(){ document.querySelector("df-messenger").shadowRoot.querySelector("df-messenger-chat").shadowRoot.querySelector("df-messenger-user-input").shadowRoot.querySelector(".input-box-wrapper > input").placeholder="New placeholder text” }, 1000);
+</script>
   ></df-messenger>
 
 
